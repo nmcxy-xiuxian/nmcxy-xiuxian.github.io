@@ -1,0 +1,1 @@
+let e=[];const t=100;function s(){self.postMessage({type:"LOGS_UPDATED",logs:e})}self.onmessage=n=>{const{type:a,data:c}=n.data;switch(a){case"ADD_LOG":!function(n){if(!n.content||""===n.content.trim())return;e.push({...n,time:(new Date).toLocaleTimeString()}),e.length>t&&(e=e.slice(-100));s()}(c);break;case"CLEAR_LOGS":e=[],s();break;case"GET_LOGS":s()}};

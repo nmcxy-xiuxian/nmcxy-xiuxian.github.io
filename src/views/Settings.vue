@@ -153,7 +153,7 @@ const handleChangeName = () => {
     <n-modal preset="dialog" title="玩家交流群" v-model:show="qq">
       <n-card :bordered="false" size="huge" role="dialog" aria-modal="true">
         <n-space vertical>
-          <n-input value="920930589" readonly type="text" />
+          <n-input value="343781647" readonly type="text" />
         </n-space>
       </n-card>
     </n-modal>

@@ -46,4 +46,6 @@ const receiveNewPlayerGift = () => {
 .home-container p {
   color: #666;
 }
+
+
 </style>
